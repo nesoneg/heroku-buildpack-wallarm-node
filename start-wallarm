@@ -15,7 +15,7 @@ wait_for() {
 }
 
 wait_for_tarantool() {
-	wait_for 127.0.0.1 3313
+	wait_for $TARANTOOL_HOST $TARANTOOL_PORT
 }
 
 tarantool_job() {
